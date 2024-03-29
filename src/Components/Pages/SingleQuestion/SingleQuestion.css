@@ -1,0 +1,239 @@
+.mainQuestionWrapper {
+    display: block;
+    margin-top: 75px;
+    padding-top: 5px;
+}
+.AnswerItem {
+    display: flex;
+    border-bottom: 1px solid #000;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+.QuestionInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.max-width {
+    max-width: 80%;
+    margin-left: 180px;
+    /* background-color: #FAFAFA; */
+}
+
+.m-r {
+    /* margin-top: 20px;  */
+    margin-left: 20px;
+}
+
+.scrollable-div {
+    max-height: 300px;
+    min-height: 0px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.username {
+    width: 90px;
+    padding-left: 60px;
+}
+
+.alert {
+    color: aquamarine;
+}
+
+.question {
+    border-bottom: 10px solid #fe8402;
+    width: 60px;
+}
+
+.answerTitle {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    height: 2em;
+    font-size: large;
+}
+
+.thewhole {
+    background-color: #fafafa;
+}
+
+.blue {
+    color: white;
+    font-size: 24;
+    background-color: #0b5ed7;
+}
+
+.red {
+    text-align: center;
+    padding-bottom: 14px;
+}
+
+.green {
+    color: green;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: column;
+    /* padding-right: 40px; */
+}
+
+.questionCenter {
+    text-align: center;
+    border-bottom: 3px solid #ccc; /* Border at the bottom */
+}
+
+.questionCenter h1 {
+    padding-bottom: 5px;
+    text-decoration-line: underline;
+}
+.Avatar {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+
+.questionImage {
+    width: 50px;
+    margin-right: 20px;
+}
+
+/* .singleQAnswers {
+    display: flex;
+
+} */
+
+/* Flex container styling */
+.singleQAnswers {
+    display: flex; /* Set as flex container */
+    align-items: center; /* Align items vertically in the center */
+    width: 90%; /* Set width to 90% of the screen width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding for spacing */
+    border: 1px solid #ccc; /* Optional: Add a border for visual separation */
+}
+
+/* Styling for image */
+.questionImage {
+    width: 50px; /* Set width as desired */
+    border-radius: 50%;
+    /* Optional: Make it circular */
+}
+
+/* Styling for username */
+p {
+    margin: 0;
+    /* font-weight: bold; */
+    /* Make username bold */
+}
+
+/* Styling for answer text */
+h4 {
+    margin: 0; /* Remove default margin */
+}
+
+.nameandans {
+    /* display: block; */
+    align-self: center; /* Center content vertically */
+}
+
+.margined {
+    margin-left: 70px;
+}
+
+.margined h1 {
+    margin-bottom: 7px;
+}
+
+.margined h3 {
+    margin-bottom: 7px;
+    font-size: 21.5px;
+}
+
+.margined p {
+    font-size: 18px;
+}
+
+/* .community {
+} */
+
+.questionImage {
+    width: 100px;
+}
+
+.width {
+    margin-right: 10px;
+}
+
+.width p {
+    margin-left: 25px;
+}
+
+/* .nameandans {
+    margin-top: 40px;
+} */
+
+.questionAnswer {
+    text-align: center;
+}
+.questionAnswer h1 {
+    /* margin-left: 500px; */
+    margin-top: 10px;
+}
+
+/* .questionAnswer p {
+    margin-left: 570px;
+    margin-top: 10px;
+} */
+
+textarea {
+    margin-top: 10px;
+    margin-left: 100px;
+    height: 300px;
+    margin-bottom: 20px;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 15px;
+    border: solid black 1px;
+}
+
+.linkgoto {
+    text-decoration: none;
+    /* color: black; */
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+.linkgoto .gotoPage {
+    margin-bottom: 10px;
+}
+
+/* linkgoto .gotoPage:hover {
+    background-color: #fe8402;
+    border: none;
+} */
+
+.questionAnswer-button {
+    background-color: #516cf0;
+    border: solid #516cf0;
+    color: #fff;
+    border-radius: 15px;
+    padding: 0px 30px;
+    height: 50px;
+    width: 300px;
+    /* margin-left: 100px; */
+
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.answerButton {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

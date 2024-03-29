@@ -1,0 +1,102 @@
+.thewhole {
+  list-style-position: inside;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto; /* This centers the element horizontally */
+  margin-top: 80px;
+}
+
+.no2 {
+  margin-left: 90px;
+}
+
+.no2 {
+  margin-left: -45px;
+}
+
+.no3 {
+  margin-left: 110px;
+}
+
+ul li {
+  font-size: 19px;
+}
+
+.goto {
+  text-decoration: none;
+  color: black;
+}
+
+.gotoPage {
+  font-size: 18px;
+  /*  */
+  background-color: #516cf0;
+  border: solid #516cf0;
+  color: #fff;
+  border-radius: 15px;
+  padding: 10px 10px;
+  height: 30px;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.gotoPage:hover {
+  background-color: #fe8402;
+  border: none;
+  color: black;
+}
+
+.textArea {
+  width: 80%;
+}
+
+.askQuestion input {
+  height: 20px;
+  margin-bottom: 70px;
+  font-size: larger;
+  padding: 20px;
+  border-radius: 15px;
+  border: solid black 1px;
+  margin-left: 70px;
+}
+
+.askQuestion textarea {
+  height: 300px;
+  margin-bottom: 7px;
+  /* font-size: larger; */
+  padding: 10px;
+  border-radius: 15px;
+  border: solid black 1px;
+  margin-left: 65px;
+}
+
+.allQuestion-button {
+  background-color: #516cf0;
+  border: solid #516cf0;
+  color: #fff;
+  border-radius: 15px;
+  padding: 0px 30px;
+  height: 50px;
+  width: 300px;
+  margin-left: -670px;
+
+  margin: 0 auto; /* This centers the element horizontally */
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.allQuestion-button:hover {
+  background-color: #fe8402;
+  border: none;
+  color: black;
+}
+
+.stepsToGoodQuestion {
+  margin-top: 5px;
+  padding-top: 15px;
+}
+
+.green {
+  color: green;
+}
